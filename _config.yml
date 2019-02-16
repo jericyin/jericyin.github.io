@@ -1,6 +1,6 @@
 # Site settings
-title: BY Blog
-SEOTitle: 福林的博客 | BY Blog
+title: jericyin Blog
+SEOTitle: 福林的博客 | jericyin Blog
 header-img: img/post-bg-desk.jpg
 email: 932496423@qq.com
 description: "Keep on the way."
@@ -70,11 +70,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: dfbf4f7c3fe7ce20d11379946cb45f29
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -94,10 +94,11 @@ service-worker: true
 
 # Friends
 friends: [
+    #{
+     #   title: "简书·jericyin",
+      #  href: "http://www.jianshu.com/u/e71990ada2fd"
+    #},
     {
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
         title: "Apple",
         href: "https://apple.com"
     },{
